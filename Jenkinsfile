@@ -1,11 +1,11 @@
 pipeline{
     agent any
     stages{
-         stage("GitHub checkout....") {
+         stage("GitHub Repo checking....") {
             steps {
                 script {
  
-                    git branch: 'main', url: 'https://github.com/clement2019/python_flask_app.git' 
+                    git branch: 'main', url: 'https://github.com/obieh/python_flask_app.git' 
                 }
             }
         }

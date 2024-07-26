@@ -3,7 +3,7 @@ app = Flask(__name__)
  
 @app.route('/')
 def welcome():
-   return "Welcome to Devops/cloud training!"
+   return "Welcome to DevOps training Powered by Dave!"
  
 @app.route('/create')
 def create():
